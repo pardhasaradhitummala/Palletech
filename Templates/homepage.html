@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Palle Tech</title>
+    <link rel="stylesheet" href="{% static 'homepage.css' %}" />
+  </head>
+  <body>
+  {% include 'navbar.html' %}
+    <div class="container">
+      <h1>Welcome to Palle technologies</h1>
+      <!-- <input type="submit"  value="Get Started"> -->
+      <a href="{% url 'bdaloginpage'%}">Get Started</a>
+      </div>
+  </body>
+</html>

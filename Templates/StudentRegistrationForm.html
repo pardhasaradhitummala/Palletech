@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Trainee Registration</title>
+    <link rel="stylesheet" href="{% static 'TraineeRegister.css'%}">
+</head>
+<body>
+<div class="container">
+    {{error}}
+<form action="traineereg" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{form.name}}
+    {{form.email}}
+    {{form.phone}}
+    {{form.course}}
+    {{form.fee}}
+    {{form.image}}
+    <input type="submit" value="RegisterTrainee">
+</form>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,17 @@
+body{
+margin:0px;
+}
+ul{
+  text-align: center;
+  margin:0px;
+}
+li{
+  list-style: none;
+  margin-right: 200px;
+  font-size: 50px;
+  display: inline;
+}
+.navbar{
+  background-color: white;
+  color: black;
+}

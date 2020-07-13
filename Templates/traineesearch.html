@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <title></title>
+    <link rel="stylesheet" href="{% static 'traineesearch.css' %}">
+</head>
+    
+<body>
+    <div class="container">
+        <h3>{{msg}}</h3>
+    <form action="searchingTrainee" method="post">
+        {% csrf_token %}
+        <input type="email" placeholder="enter email to find record" name="email">
+        <input type="submit" value="search">
+    </form>
+        </div>
+
+</body>
+</html>

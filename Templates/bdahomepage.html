@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>BDA LOGIN</title>
+    <link rel="stylesheet" href="{% static 'bdahomepage.css' %}">
+  </head>
+  <body>
+    <div class="container">
+      <h1> BDA LOGIN</h1>
+
+
+    <form class="" action="" method="post">
+      {% csrf_token %}
+    <p>{{id}}</p>
+      <input type="text" name="userid" placeholder="enter user id">
+      <p>{{password}}</p>
+      <input type="password" name="userpassword" placeholder="enter password">
+      <input type="submit" name="" value="Login">
+    </form>
+  </div>
+  </body>
+</html>

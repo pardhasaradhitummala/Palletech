@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <title>Bda User Page</title>
+    <link rel="stylesheet" href="{% static 'BdaUsestyle.css' %}">
+</head>
+<body>
+<h1>Hello {{user1}}</h1>
+<h1>{{date}}</h1>
+<div class="container">
+    <a href="{% url 'traineesearch'%}" >Find old Trainee Record</a>
+    <a href="{% url 'traineeform'%}" >Create new Trainee Record</a>
+    </div>
+</body>
+</html>
+

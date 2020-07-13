@@ -1,0 +1,23 @@
+h1{
+    color: darkslategrey;
+    font-size: 40px;
+    
+}
+
+.container{
+    width: 50%;
+    margin: 100px auto;
+}
+a{
+    text-decoration: none;
+    height: 40px;
+    width: 100%;
+    font-size: 40px;
+    background-color: darkslategrey;
+    color: white;
+    padding: 20px;
+    display: block;
+    margin: 20px;
+    border-radius: 100px;
+    text-align: center;
+}
